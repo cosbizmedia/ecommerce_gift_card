@@ -6,6 +6,7 @@
   <%= f.input :name, label: 'Product name' %>
   <%= f.input :description, label: 'Product Description', as: :text %>
   <%= f.input :price, label: 'Product Price', as: :decimal %>
+  <%= f.input :image, as: :file, label: 'Product Image' %>
   <%= f.button :submit, class: "btn btn-success" %>
 <% end %>
 </div>
